@@ -4,8 +4,14 @@
   "description": "A node server for firebase for texts and emails",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Jordan Tompkins",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.0.5",
+    "twilio": "^2.9.1"
+  }
 }
